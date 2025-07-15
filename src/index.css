@@ -135,6 +135,24 @@
   body {
     @apply bg-background text-foreground scroll-smooth;
   }
+
+  /* Custom cursor for desktop */
+  @media (min-width: 1024px) {
+    * {
+      cursor: none !important;
+    }
+    
+    a, button, [role="button"], input, textarea, select {
+      cursor: none !important;
+    }
+  }
+
+  /* Mobile cursor reset */
+  @media (max-width: 1023px) {
+    * {
+      cursor: auto !important;
+    }
+  }
 }
 
 @layer components {

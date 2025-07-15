@@ -1,3 +1,5 @@
+import { Navigation } from '@/components/Navigation';
+import { CustomCursor } from '@/components/CustomCursor';
 import { HeroSection } from '@/components/HeroSection';
 import { AboutSection } from '@/components/AboutSection';
 import { SkillsSection } from '@/components/SkillsSection';
@@ -9,7 +11,9 @@ import { Footer } from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background cursor-none">
+      <CustomCursor />
+      <Navigation />
       <HeroSection />
       <AboutSection />
       <SkillsSection />
