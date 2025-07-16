@@ -59,9 +59,9 @@ export const Navigation = () => {
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection('home')}
-              className="text-xl font-bold gradient-text hover:scale-105 transition-transform"
+              className="text-xl font-bold transition-all duration-300 hover:scale-110 hover:rotate-12"
             >
-              KS
+              <Home className="w-8 h-8 text-primary transition-colors duration-300 hover:text-primary/80" />
             </button>
           </div>
 

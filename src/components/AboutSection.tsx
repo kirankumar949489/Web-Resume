@@ -14,16 +14,21 @@ export const AboutSection = () => {
 
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 items-center">{/* Better responsive grid */}
           <ScrollAnimation animation="slide-in-left" delay={200}>
-            <div className="relative">
-              <div className="glass-card p-6 sm:p-8 rounded-2xl sm:rounded-3xl">{/* Responsive card padding */}
-                <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 mx-auto rounded-full bg-gradient-primary glow relative overflow-hidden">{/* Responsive avatar */}
-                  <div className="absolute inset-4 rounded-full bg-card flex items-center justify-center">
-                    <div className="text-4xl sm:text-5xl md:text-6xl font-bold gradient-text">KS</div>{/* Responsive avatar text */}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </ScrollAnimation>
+  <div className="relative">
+    <div className="glass-card p-6 sm:p-8 rounded-2xl sm:rounded-3xl">
+      <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 mx-auto rounded-full bg-gradient-primary glow relative overflow-hidden">
+        <div className="absolute inset-4 rounded-full bg-card flex items-center justify-center overflow-hidden">
+          <img 
+            src="/public/my.jpg" // <-- Replace with your image path
+            alt="Kiran Surali" 
+            className="w-full h-full object-cover rounded-full border-2 border-primary/40 shadow-lg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</ScrollAnimation>
+
 
           <ScrollAnimation animation="slide-in-right" delay={400}>
             <div className="space-y-6">

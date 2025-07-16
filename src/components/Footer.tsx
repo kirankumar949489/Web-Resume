@@ -62,14 +62,14 @@ export const Footer = () => {
                     className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Mail className="w-4 h-4" />
-                    kiran.surali@example.com
+                    suralikirankumar82gmail.com
                   </a>
                   <a 
                     href="tel:+91XXXXXXXXX"
                     className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
                   >
                     <Phone className="w-4 h-4" />
-                    +91 XXXXX XXXXX
+                    +91 8333 991 819
                   </a>
                   <a 
                     href="https://github.com/kirankumar949489"

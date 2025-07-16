@@ -1,5 +1,5 @@
 import { Navigation } from '@/components/Navigation';
-import { CustomCursor } from '@/components/CustomCursor';
+import ParticleOrbitEffect from '@/components/ParticleOrbitEffect';
 import { HeroSection } from '@/components/HeroSection';
 import { AboutSection } from '@/components/AboutSection';
 import { SkillsSection } from '@/components/SkillsSection';
@@ -11,8 +11,11 @@ import { Footer } from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background cursor-none">
-      <CustomCursor />
+    <div className="min-h-screen bg-background relative overflow-hidden">
+      {/* ✅ Particle effect background */}
+      <ParticleOrbitEffect />
+
+      {/* ✅ Page content */}
       <Navigation />
       <HeroSection />
       <AboutSection />
