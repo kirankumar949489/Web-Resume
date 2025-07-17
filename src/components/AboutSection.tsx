@@ -19,10 +19,10 @@ export const AboutSection = () => {
       <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 mx-auto rounded-full bg-gradient-primary glow relative overflow-hidden">
         <div className="absolute inset-4 rounded-full bg-card flex items-center justify-center overflow-hidden">
           <img 
-            src="/public/my.jpg" // <-- Replace with your image path
-            alt="Kiran Surali" 
-            className="w-full h-full object-cover rounded-full border-2 border-primary/40 shadow-lg"
-          />
+  src="/my.jpg"
+  alt="Kiran Surali"
+  className="w-full h-full object-cover rounded-full border-2 border-primary/40 shadow-lg"
+/>
         </div>
       </div>
     </div>
