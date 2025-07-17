@@ -24,8 +24,8 @@ const projects = [
     description:
       'Node-based UI built with React Flow, featuring FastAPI backend integration, lazy loading for performance, and DAG validation for complex workflow management.',
     technologies: ['React Flow', 'FastAPI', 'TypeScript', 'Node.js'],
-    demoUrl: 'https://pipeline-git-main-kiran-kumars-projects-605f38ec.vercel.app/',
-    githubUrl: '#',
+    demoUrl: 'https://pipeline-beige.vercel.app/',
+    githubUrl: 'https://github.com/kirankumar949489/pipeline',
     gradient: 'from-secondary to-accent',
   },
   {
@@ -34,7 +34,7 @@ const projects = [
       'Responsive weather forecast application using OpenWeatherMap API with debounced search functionality, location-based weather, and 7-day forecast display.',
     technologies: ['React', 'OpenWeather API', 'JavaScript', 'CSS3'],
     demoUrl: 'https://weather-dashboard-task.netlify.app/',
-    githubUrl: '#',
+    githubUrl: 'https://github.com/kirankumar949489/Weather--Task',
     gradient: 'from-accent to-primary',
   },
   {
@@ -42,8 +42,8 @@ const projects = [
     description:
       'Personal portfolio showcasing skills, projects, and contact information with a modern design and responsive layout.',
     technologies: ['React', 'Tailwind CSS', 'TypeScript', 'Vite'],
-    demoUrl: 'https://kiran-surali-portfolio-craft.vercel.app/',
-    githubUrl: 'https://github.com/kirankumar949489/kiran-surali-portfolio-craft',
+    demoUrl: 'https://web-resume-alpha.vercel.app/',
+    githubUrl: 'https://github.com/kirankumar949489/Web-Resume',
     gradient: 'from-primary to-secondary',
   },
   {
