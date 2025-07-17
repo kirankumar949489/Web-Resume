@@ -24,7 +24,7 @@ const projects = [
     description:
       'Node-based UI built with React Flow, featuring FastAPI backend integration, lazy loading for performance, and DAG validation for complex workflow management.',
     technologies: ['React Flow', 'FastAPI', 'TypeScript', 'Node.js'],
-    demoUrl: '#',
+    demoUrl: 'https://pipeline-git-main-kiran-kumars-projects-605f38ec.vercel.app/',
     githubUrl: '#',
     gradient: 'from-secondary to-accent',
   },

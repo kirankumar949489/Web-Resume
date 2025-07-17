@@ -6,6 +6,7 @@ export const HeroSection = () => {
   const [typedText, setTypedText] = useState("");
   const fullText = "Building fast, scalable, and elegant web apps";
 
+  // Typing animation
   useEffect(() => {
     let index = 0;
     const timer = setInterval(() => {
@@ -20,7 +21,7 @@ export const HeroSection = () => {
     return () => clearInterval(timer);
   }, []);
 
-  // Parallax icon effect on scroll
+  // Parallax icon scroll effect
   useEffect(() => {
     const handleScroll = () => {
       document.querySelectorAll<HTMLElement>(".parallax-icon").forEach((el) => {
@@ -31,6 +32,20 @@ export const HeroSection = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Handler for download + preview
+  const handleResumeDownload = () => {
+    // Open preview in new tab
+    window.open("/resume1.html", "_blank");
+
+    // Trigger download
+    const link = document.createElement("a");
+    link.href = "/resume1.html";
+    link.download = "Kiran_Kumar_Surali_Resume.html";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <section
@@ -87,7 +102,7 @@ export const HeroSection = () => {
             <Button
               size="lg"
               className="card-3d px-6 py-4 bg-primary hover:bg-primary/80 glow ring-2 ring-primary ring-offset-2 ring-offset-background transition-all duration-300 w-full sm:w-auto"
-              onClick={() => window.open("#", "_blank")}
+              onClick={handleResumeDownload}
             >
               <Download className="mr-2 h-5 w-5" />
               Download Resume
