@@ -60,8 +60,8 @@ const projects = [
     description:
       'A restaurant site with a menu of food items, prices, and images. Features responsive design, online ordering, and contact info.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Netlify', 'React JS'],
-    demoUrl: 'https://beautiful-maamoul-2e1897.netlify.app/',
-    githubUrl: '#',
+    demoUrl: 'https://food-web-kzmw.vercel.app/',
+    githubUrl: 'https://github.com/kirankumar949489/food-web',
     gradient: 'from-accent to-primary',
   },
 ];
