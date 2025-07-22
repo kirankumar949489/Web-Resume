@@ -3,7 +3,7 @@ import { Briefcase, Calendar } from 'lucide-react';
 
 const experiences = [
   {
-    company: 'Truefy Technologies',
+    company: 'Zensar Pvt Ltd',
     position: 'Frontend Developer',
     period: '2022 – Present',
     description: 'Led frontend development for multiple web applications using React.js, implemented responsive designs, and collaborated with cross-functional teams to deliver high-quality user experiences.',
